@@ -14,7 +14,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/MR-b7r/MR-b7r.IP-Address-Tracker)
+- Solution URL: [https://github.com/MR-b7r/MR-b7r.IP-Address-Tracker]
 - Live Site URL: [Add live site URL here](https://mr-b7r.github.io/MR-b7r.IP-Address-Tracker/)
 
 ## Author
