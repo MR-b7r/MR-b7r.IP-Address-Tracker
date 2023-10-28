@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Leaflet Library  -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+
+  <link rel="stylesheet" href="dist/output.css">
+  
+  <title>Frontend Mentor | IP Address Tracker</title>
+
+</head>
+<body>
+  <div class="task h-screen">
+    <header class="header relative bg-no-repeat bg-cover bg-center flex items-center justify-start gap-3 flex-col p-5 min-h-[16rem]" >
+      <h1 class="header__title text-2xl md:text-3xl  text-color-app font-medium tracking-wider ">IP Adress Tracker</h1>
+      <div class="header__search flex items-center justify-center w-full mb-9">
+        <input type="text" placeholder="Search for any IP address or domain" required  class="header__search--input h-12 outline-none py-2 px-4 w-9/12 sm:w-1/2 text-Very-Dark-Gray text-lg tracking-wide rounded-tl-2xl rounded-bl-2xl">
+        <button type="submit" class="header__search--button bg-black p-4 relative h-12 rounded-tr-2xl rounded-br-2xl w-12 transition hover:bg-Very-Dark-Gray duration-300">
+          <img src="images/icon-arrow.svg" alt="" class="text-color-app absolute top-1/2 right-1/2 translate-x-1/2 -translate-y-1/2 ">
+        </button>        
+      </div>
+
+      <div class="information z-10 font-bold flex justify-between items-center flex-col shadow-[0px_2px_20px_#00000038] mlg:gap-3 lg:flex-row bg-[#fff] rounded-xl py-4 px-6 mlg:py-3 absolute bottom-0 right-1/2 translate-x-1/2 translate-y-1/2 max-w-[80%] w-[65rem]  max-h-[80%] h-[9rem] mlg:h-auto mlg:max-h-none ">
+
+        <div class="ip flex justify-between items-start mlg:items-center flex-col gap-3 mlg:gap-0 ">
+          <h3 class="text-Dark-Gray text-sm ">IP ADDRESS</h3>
+          <p class="ip-field text-Very-Dark-Gray text-2xl mlg:text-[3vw]"></p>
+        </div>
+        <hr class="inline-block w-[1px] h-[60%] bg-Dark-Gray mlg:hidden">
+
+        <div class="location flex justify-between items-start mlg:items-center flex-col gap-3 mlg:gap-0">
+          <h3 class="text-Dark-Gray text-sm">LOCATION</h3>
+          <p class="location-field text-Very-Dark-Gray text-2xl mlg:text-[3vw]">
+          </p>
+        </div>
+        <hr class="inline-block w-[1px] h-[60%] bg-Dark-Gray mlg:hidden">
+
+
+        <div class="timezone flex justify-between items-start mlg:items-center flex-col gap-3 mlg:gap-0">
+          <h3 class="text-Dark-Gray text-sm">TIMEZONE</h3>
+          <p class="timezone-field text-Very-Dark-Gray text-2xl mlg:text-[3vw]">
+          </p>
+        </div>
+        <hr class="inline-block w-[1px] h-[60%] bg-Dark-Gray mlg:hidden">
+
+
+        <div class="isp flex justify-between items-start mlg:items-center flex-col gap-3 mlg:gap-0">
+          <h3 class="text-Dark-Gray text-sm">ISP</h3>
+          <p class="isp-field text-Very-Dark-Gray text-2xl mlg:text-[3vw]">
+          </p>
+        </div>
+      </div>
+    </header>
+    <section class="map-section h-full bg-black z-[5]">
+
+      <div class="h-full z-[5]" id="map"></div>
+    </section>
+  </div>
+ 
+  <script src="app/main.js"></script>
+</body>
+</html>

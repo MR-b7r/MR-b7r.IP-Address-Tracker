@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Convergence&family=Epilogue:wght@500;700&family=Manrope:wght@400;500;800&family=Open+Sans:wght@400;600;800&family=Plus+Jakarta+Sans:wght@400;500;800&family=Roboto:wght@400;700&family=Rubik:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    html {
+        font-family: 'Rubik', sans-serif;
+
+    }
+}
+:root {
+    --Very-Dark-Gray: hsl(0, 0%, 17%);
+    --Dark-Gray: hsl(0, 0%, 59%);
+    --color-app: #fff;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    min-height: 100vh;
+    
+    font-family: 'Rubik', sans-serif;
+}
+.header {
+    background-image:url(../images/pattern-bg-desktop.png);
+}
