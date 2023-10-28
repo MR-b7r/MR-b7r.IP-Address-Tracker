@@ -15,12 +15,12 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/MR-b7r/MR-b7r.IP-Address-Tracker]
-- Live Site URL: [Add live site URL here](https://mr-b7r.github.io/MR-b7r.IP-Address-Tracker/)
+- Live Site URL: [https://mr-b7r.github.io/MR-b7r.IP-Address-Tracker/]
 
 ## Author
 
-- Github - [Add your name here](https://github.com/MR-b7r)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/MR-b7r)
+- Github - [haitham bahr](https://github.com/MR-b7r)
+- Frontend Mentor - [@MR-b7r](https://www.frontendmentor.io/profile/MR-b7r)
 
 ## My process
 
@@ -39,6 +39,6 @@ I have learned how to handle with IP-Address via ipGeolocation API and a lot oth
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Example resource 1](https://ipgeolocation.io/) - This API-provider helped me for getting IP-address.
+
 
